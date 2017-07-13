@@ -1,34 +1,6 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<Br><Br<br><Br><Br>
-<div class="container">
-    <div class="row">
-      <div class="col-md-4 left-panel">
-        <div class="thumbnail">
-          <img src="{{asset('img/profile.jpg') }}" alt="...">
-          <div class="caption">
-            <h3>R-jay Villegas</h3>
-            <p>Ako Bodoy</p>
-            <p>
-                <a href="https://www.facebook.com/rjay.ravn" target="_blank" class="btn btn-primary" role="button">
-                    <i class="fa fa-facebook" aria-hidden="true"></i> Facebook
-                </a>
-                <a href="https://twitter.com/1RJayVillegas" target="_blank" class="btn btn-default" role="button">
-                   <i class="fa fa-twitter" aria-hidden="true"></i> @1RjayVillegas
-                </a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-8 right-panel">
-        
-      </div>
-    </div>
-</div>
-
-
-
 {% endblock %}
 
 {% block stylesheets %}
